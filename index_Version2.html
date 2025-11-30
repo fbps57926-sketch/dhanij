@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Simple Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login-container">
+    <h2>Login</h2>
+    <form id="login-form">
+      <label>Username</label>
+      <input type="text" id="username" required><br>
+      <label>Password</label>
+      <input type="password" id="password" required><br>
+      <button type="submit">Login</button>
+      <p id="login-error" class="error"></p>
+    </form>
+  </div>
+  <div id="app" style="display:none">
+    <nav>
+      <button onclick="showPage('home')">Home</button>
+      <button onclick="showPage('game')">Game</button>
+      <button onclick="showPage('sosmed')">Media Sosial</button>
+      <button onclick="logout()">Logout</button>
+    </nav>
+    <div id="home" class="page">
+      <h1>Nama M.Rizky Akbar Maulidhani</h1>
+      <p><em>"Jangan pernah menyerah sebelum berhasil."</em></p>
+    </div>
+    <div id="game" class="page" style="display:none">
+      <h2>Game Populer</h2>
+      <ul>
+        <li><a href="https://www.crazygames.com/" target="_blank">Crazy Games</a></li>
+        <li><a href="https://poki.com/" target="_blank">Poki</a></li>
+      </ul>
+    </div>
+    <div id="sosmed" class="page" style="display:none">
+      <h2>Media Sosial</h2>
+      <ul>
+        <li><a href="#dhanigloball" target="_blank">TikTok Saya</a></li>
+        <li><a href="https://wa.me/#6285807255993" target="_blank">WhatsApp</a></li>
+      </ul>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

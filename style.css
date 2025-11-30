@@ -1,0 +1,14 @@
+body { font-family: Arial, sans-serif; background: #f9f9f9; margin: 0; }
+#login-container, #app { max-width: 400px; margin: 60px auto; background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 4px 12px #0001; }
+nav { margin-bottom: 18px; }
+nav button { margin-right: 7px; padding: 8px 14px; border: none; border-radius: 5px; background: #2d88ff; color: #fff; cursor: pointer; }
+nav button:hover { background: #1959a6; }
+.page { margin-bottom: 10px;}
+h2, h1 { color: #213970; }
+ul { padding: 0 0 0 20px; }
+a { color: #1862c7; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.error { color: crimson; }
+@media (max-width: 500px) {
+  #login-container, #app { max-width: 98vw; margin: 18px auto; padding: 10px; }
+}
